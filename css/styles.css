@@ -1,0 +1,47 @@
+/* Reset margin and padding for the body, set font and background color, and center text */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+    text-align: center;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Center text */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Set font family */
+    position: fixed; /* Fix position at the top */
+    inline-size: 100%; /* Full width */
+    inset-block-start: 0%; /* Position at the top */
+    inset-inline-start: 0%; /* Position at the left */
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+/* Remove default margin, padding, and list style for the navigation list */
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Display list items inline */
+nav ul li {
+    display: inline;
+}
+
+/* Style the navigation links */
+nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* White text color */
+    padding: 15px 20px; /* Padding around the text */
+    display: inline-block; /* Display as inline-block */
+}
+
+/* Change background and text color on hover */
+nav ul li a:hover {
+    background-color: #555; /* Darker background color */
+    color: aqua; /* Aqua text color */
+}
